@@ -1,7 +1,7 @@
 library(ggplot2)
 library(gridExtra)
 
-d<-read.csv("c:/users/lavellaneda/desktop/precision.txt",header=T,sep="\t",dec=",")
+d<-read.csv("precision.txt",header=T,sep="\t",dec=",")
 
 x=d[,1]                           #ingresar posicion variable a dibujar
 titulo="Histograma Precision"     #cambiar titulo grafico
