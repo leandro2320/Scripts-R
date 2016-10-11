@@ -1,7 +1,7 @@
 library(ggplot2)
 library(gridExtra)
 
-setwd("c:/users/lavellaneda/desktop")
+setwd("c:/users/leandro/desktop") #cambiar directorio
 d<-read.csv("precision.txt",header=T,sep="\t",dec=",")
 
 x=d[,1]                           #ingresar posicion variable a dibujar
