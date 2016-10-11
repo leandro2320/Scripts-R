@@ -2,7 +2,7 @@ library(ggplot2)
 library(gridExtra)
 
 setwd("c:/users/leandro/desktop") #cambiar directorio
-d<-read.csv("precision.txt",header=T,sep="\t",dec=",")
+d<-read.csv("precision.txt",header=T,sep="\t",dec=",") #importar archivo
 
 x=d[,1]                           #ingresar posicion variable a dibujar
 titulo="Histograma Precision"     #cambiar titulo grafico
